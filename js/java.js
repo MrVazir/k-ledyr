@@ -1,0 +1,1 @@
+$('#my-imageupload').imageupload(options);
