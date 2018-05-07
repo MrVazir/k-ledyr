@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['message'] = '';
-$mysqli = new mysqli("sql.itcn.dk:3306", "chri762z.EADANIA", "S74s0NntR7", "chri762z2.eadania");
+$mysqli = new mysqli("", "", "", "");
 
 //Formen bliver sendt med POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

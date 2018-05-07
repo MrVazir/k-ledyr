@@ -31,7 +31,7 @@
         <img src="<?= $_SESSION['billede'] ?>"><br />
         Velkommen <span class="user"><?= $_SESSION['navn'] ?></span>
         <?php
-        $mysqli = new mysqli("sql.itcn.dk:3306", "chri762z.EADANIA", "S74s0NntR7", "chri762z2.eadania");
+        $mysqli = new mysqli("", "", "", "");
         $sql = "SELECT navn, alder, race, perkstraek, yngl, tricks, boerst, pleje, snakke, ynglaktiv, billede FROM users";
         $result = $mysqli->query($sql);
         ?>
